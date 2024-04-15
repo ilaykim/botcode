@@ -1,0 +1,38 @@
+[
+    {
+        "symbol": "DOGE/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 263.0,
+        "entry_price": 0.16452,
+        "upnl": -0.09581879,
+        "leverage": 25.0,
+        "daily_realized_pnl": 0
+    },
+    {
+        "symbol": "SKL/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 37115.0,
+        "entry_price": 0.1054021487679,
+        "upnl": -178.6025761,
+        "leverage": 20.0,
+        "daily_realized_pnl": 0
+    },
+    {
+        "symbol": "ANKR/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 58694.0,
+        "entry_price": 0.0501755523042,
+        "upnl": -282.81234348,
+        "leverage": 25.0,
+        "daily_realized_pnl": 0
+    },
+    {
+        "symbol": "API3/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 559.6,
+        "entry_price": 3.61477508282,
+        "upnl": -666.37977181,
+        "leverage": 25.0,
+        "daily_realized_pnl": 0
+    }
+]

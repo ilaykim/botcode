@@ -1,0 +1,47 @@
+[
+    {
+        "symbol": "1000BONK/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 300.0,
+        "entry_price": 0.02197756,
+        "upnl": -1.60006667,
+        "leverage": 10.0,
+        "daily_realized_pnl": 0
+    },
+    {
+        "symbol": "ORDI/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 0.1,
+        "entry_price": 57.0397,
+        "upnl": -0.89547,
+        "leverage": 10.0,
+        "daily_realized_pnl": 0
+    },
+    {
+        "symbol": "10000LADYS/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 3600.0,
+        "entry_price": 0.00160115,
+        "upnl": -0.275236,
+        "leverage": 10.0,
+        "daily_realized_pnl": 0
+    },
+    {
+        "symbol": "MNT/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 5.0,
+        "entry_price": 1.304228,
+        "upnl": -0.62564,
+        "leverage": 10.0,
+        "daily_realized_pnl": 0
+    },
+    {
+        "symbol": "VANRY/USDT:USDT",
+        "side": "long",
+        "num_of_contracts": 26.0,
+        "entry_price": 0.22153831,
+        "upnl": -1.363396,
+        "leverage": 10.0,
+        "daily_realized_pnl": 0
+    }
+]

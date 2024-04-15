@@ -1,0 +1,62 @@
+  - user: "accountname"
+    symbols:
+      - "DOGEUSDT"
+    live_config_name: "running/doge23122022.json"
+    long_wallet_exposure_limit: 0.5
+
+  - user: "accountname"
+    symbols:
+      - "ANKRUSDT"
+    live_config_name: "running/ankr_dtcm1122.json"
+    long_wallet_exposure_limit: 0.5
+    
+  - user: "accountname"
+    symbols:
+      - "INJUSDT"
+    live_config_name: "running/inj_reclo02_mar23.json"
+    long_wallet_exposure_limit: 0.125
+  
+  - user: "accountname"
+    symbols:
+      - "SKLUSDT"
+    live_config_name: "running/skl_dtcm1122.json"
+    long_wallet_exposure_limit: 0.125
+
+  - user: "accountname"
+    symbols:
+      - "WAVESUSDT"
+    live_config_name: "running/waves080423_best_config.json"
+    long_wallet_exposure_limit: 0.125
+
+  - user: "accountname"
+    symbols:
+      - "GALAUSDT"
+    live_config_name: "running/GALAUSDT.json"
+    long_wallet_exposure_limit: 0.125
+
+  - user: "accountname"
+    symbols:
+      - "IMXUSDT"
+    live_config_name: "running/IMXUSDT.json"
+    long_wallet_exposure_limit: 0.125
+
+  - user: "accountname"
+    symbols:
+      - "OCEANUSDT"
+    live_config_name: "running/OCEAN_rec0823.json"
+    long_wallet_exposure_limit: 0.125
+
+  - user: "accountname"
+    symbols:
+      - "SHIB1000USDT"
+    live_config_name: "running/1000SHIB_dotcom_bt010623.json"
+    long_wallet_exposure_limit: 0.125
+    
+  - user: "accountname"
+    symbols:
+      - "ETCUSDT"
+    live_config_name: "default.json"
+    long_wallet_exposure_limit: 0.125
+    long_mode: "n"
+    short_mode: "gs"
+

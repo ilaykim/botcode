@@ -1,0 +1,39 @@
+{
+    "bybit_21": {
+        "last_check_date": "2024-04-15 12:00:02",
+        "traded_symbols": [
+            "1000BONKUSDT",
+            "VANRYUSDT",
+            "SLERFUSDT",
+            "MNTUSDT",
+            "LUNA2USDT",
+            "10000LADYSUSDT",
+            "ORDIUSDT",
+            "JASMYUSDT"
+        ]
+    },
+    "bini_01": {
+        "last_check_date": "2024-04-15 12:00:05",
+        "traded_symbols": [
+            "SKLUSDT",
+            "DOGEUSDT",
+            "API3USDT",
+            "ANKRUSDT",
+            "WAVESUSDT",
+            "SNXUSDT"
+        ]
+    },
+    "user-0c17c95a-595a-4da7-a535-61327880bbc7": {
+        "last_check_date": "2024-04-15 12:01:15",
+        "traded_symbols": [
+            "1000BONKUSDT",
+            "VANRYUSDT",
+            "SLERFUSDT",
+            "MNTUSDT",
+            "LUNA2USDT",
+            "10000LADYSUSDT",
+            "ORDIUSDT",
+            "JASMYUSDT"
+        ]
+    }
+}
