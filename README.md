@@ -63,9 +63,47 @@ This script verifies the validity of an API key for futures trading on Binance o
 - `400`: Invalid exchange name
 
 
+## botconfigmanager.py
+
+Create / Update - individual configuration files for bots. 
+
+Each user's configuration file is named using the pattern `<username>_bot_function.json` and contains the following parameters, each with default values set to `1.0`:
+
+- `wallet risk`
+- `ema weight`
+- `wvma weight`
+- `leverage`
+- `time offset`
+- `price threshold`
+- `random forest`
+- `xgboost`
+- `long min markup`
+- `long markup weight`
+- `short min markup`
+- `short markup weight`
+
+### Options
+
+- `--user`: Specifies the username associated with the bot configuration.
+- `--parameter`: The configuration parameter to update.
+- `--value`: The new value for the parameter (must be between 0 and 2).
+
+**Create or Check a User's Configuration File:**
+
+```bash
+python botconfigmanager.py --user johndoe
+```
+
+**Update a Configuration Parameter:**
+
+```bash
+python botconfigmanager.py --user johndoe --parameter "wallet risk" --value 1.2
+```
+
+
 # User Management
 
-Here's a guide for managing users and their bots in the `passivbot` project:
+Here's a guide for managing users and their bots:
 
 1. **Adding a New User:**
 
