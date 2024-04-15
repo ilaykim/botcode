@@ -61,3 +61,46 @@ This script verifies the validity of an API key for futures trading on Binance o
 - `403`: Invalid API key or secret
 - `500`: Error occurred during API request
 - `400`: Invalid exchange name
+
+
+# User Management
+
+Here's a guide for managing users and their bots in the `passivbot` project:
+
+1. **Adding a New User:**
+
+   To add a new user, use the following command:
+
+   ```bash
+   userconfigmanager.py --add_user -a username
+   ```
+
+   This command adds a new user with the specified username. For more details and error codes, refer to the `userconfigmanager.md` file in the project folder.
+
+2. **Running the Bot for a User:**
+
+   To start the bot for a specific user, use the following command:
+
+   ```bash
+   python3 -c "import subprocess; subprocess.call(['python3', 'manager', 'start', 'username', '-y'], cwd='/home/stablesail/passivbot')"
+   ```
+
+   Replace `username` with the actual username. Note that this command does not include error catching. If the username does not match the one set in `adduser.py` or `userconfigmanager.py`, the bot will not start.
+
+3. **Stopping the Bot for a User:**
+
+   To stop the bot for a specific user, use the following command:
+
+   ```bash
+   python3 -c "import subprocess; subprocess.call(['python3', 'manager', 'stop', 'username', '-y'], cwd='/home/stablesail/passivbot')"
+   ```
+
+4. **Stopping or Starting the Bot for a Single Coin for a User:**
+
+   To stop or start the bot for a single coin for a user, use the following command:
+
+   ```bash
+   python3 -c "import subprocess; subprocess.call(['python3', 'manager', 'stop', 'username-coinname', '-y'], cwd='/home/stablesail/passivbot')"
+   ```
+
+   Replace `username-coinname` with the combined username and coin name. For example, `john-btc` would be the username for user `john` trading the `BTC` coin.
