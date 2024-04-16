@@ -11,7 +11,7 @@ The `adduser.py` script automates the process of adding new user API key informa
 - `-k` or `--key`: The API key.
 - `-s` or `--secret`: The secret key associated with the API key.
 
-## Update_account_data.py
+## Stablesail_db.py
 
 This script manages account data for trading bots on Binance and Bybit exchanges. It fetches account balances, open positions, and calculates profit and loss (PnL) for the past 30 days.
 
@@ -23,8 +23,8 @@ This script manages account data for trading bots on Binance and Bybit exchanges
 
 ### Usage
 
-- To update all accounts: `python update_account_data.py`
-- To update a specific account: `python update_account_data.py --account <account_name>`
+- To update all accounts: `python stablesail_db.py`
+- To update a specific account: `python stablesail_db.py --account <account_name>`
 
 ## Userconfigmanager.py
 
